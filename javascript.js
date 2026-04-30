@@ -59,7 +59,7 @@ function pressedNum(event) {
     }
 }
 function pressedOp(event){
-    if (x !== ""){
+    if (x !== "" && x !== "-"){
         if (event.target.textContent== "=" ) {
             if (operation !== "" && y == ""){
                 return;
