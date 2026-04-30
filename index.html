@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display"></div>
+        <div class="main">
+            <div class="non-operators">
+                <div class="top-row">
+                    <button id="on">⏻</button>
+                    <button id="clear">C</button>
+                    <button id="backspace">&#9003</button>
+                </div>
+                <div class="numbers">
+                    <button id="zero" class="number-button">0</button>
+                    <button id="dot" class="number-button">.</button>
+                    <button disabled style="visibility: hidden;"></button>
+                </div>
+            </div>
+            <div class="operators">
+                <button>+</button>
+                <button>-</button>
+                <button>*</button>
+                <button>/</button>
+                <button id="equals">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
